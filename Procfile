@@ -1,1 +1,1 @@
-web: ./biostar.sh delete migrate index run
+web: ./biostar.sh run
