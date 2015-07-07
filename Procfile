@@ -1,1 +1,1 @@
-web: source run/sqlite.env && ./biostar.sh delete migrate index run
+web: source run/sqlite.env && export BIOSTAR_HOSTNAME=localhost:$PORT && ./biostar.sh delete migrate index run
